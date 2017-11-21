@@ -65,8 +65,7 @@ public class NotifierSender {
 
         message = "Cześć\n" + user + ",\nza "+dayTransformator(days) + " kończy Ci się dostęp do kursu " + course +
                 ". Wykorzystaj maksymalnie ten czas! \n" + m1 + sb + "\nPozdrawiamy";
-
-        System.out.println(message);
+        
         return message;
     }
 
